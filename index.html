@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIMA</title>
+
+    <link rel="stylesheet" href="./iconmoon/style.css" />
+    <link rel="stylesheet" href="./mobile-icons/style.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link href="path_to_css_files/all.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css"
+    /> -->
+  </head>
+  <body>
+    <div class="App">
+      <div class="navbar">
+        <nav class="nav">
+          <div class="nav-logo">
+            <img src="./icons/logo.svg" alt="" />
+          </div>
+
+          <div class="nav-menu">
+            <button class="mobile-bar" onclick="openNavbar(false)">
+              <i class="icon-cross"></i>
+            </button>
+            <div class="nav-menu-center">
+              <ul>
+                <li>Частным лицам</li>
+                <li>Корпоративным клиентам</li>
+                <li>Партнерам / Переход в ТИАС</li>
+              </ul>
+              <div class="call">
+                <button><i class="icon-call"></i></button>
+                <span>(44) 601 55 11</span>
+              </div>
+              <select class="lang" name="" id="">
+                <option value="Русский">Русский</option>
+                <option value="Русский">Русский</option>
+              </select>
+            </div>
+            <div class="nav-menu-list">
+              <ul>
+                <select name="" id="">
+                  <option value="О нас">О нас</option>
+                  <option value="О нас">О нас</option>
+                </select>
+                <li>Активация полиса</li>
+                <li>Новости</li>
+                <select name="" id="">
+                  <option value="Страховые услуги">Страховые услуги</option>
+                  <option value="Страховые услуги">Страховые услуги</option>
+                </select>
+                <li>Точки продаж</li>
+                <li>FAQ</li>
+                <button>
+                  <i class="fa icon-search"></i>
+                </button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <button class="mobile-bar" onclick="openNavbar(true)">
+          <i class="icon-menu"></i>
+        </button>
+      </div>
+      <div class="owl-carousel owl-theme header-carousel">
+        <header>
+          <div class="header-about">
+            <h1>Страхование груза в пути</h1>
+            <p>На страже Ваших интересов!</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="pagenation">
+            <p>02. Корпоративное страхование</p>
+            <p>04. Автострахование</p>
+          </div>
+        </header>
+        <header>
+          <div class="header-about">
+            <h1>Страхование груза в пути</h1>
+            <p>На страже Ваших интересов!</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="pagenation">
+            <p>02. Корпоративное страхование</p>
+            <p>04. Автострахование</p>
+          </div>
+        </header>
+        <header>
+          <div class="header-about">
+            <h1>Страхование груза в пути</h1>
+            <p>На страже Ваших интересов!</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="pagenation">
+            <p>02. Корпоративное страхование</p>
+            <p>04. Автострахование</p>
+          </div>
+        </header>
+      </div>
+
+      <section class="blogs">
+        <h2>Популярные услуги</h2>
+        <div class="slider_nav slide_pagenation">
+          <button class="am-next"><i class="icon-arrowLeftIcon"></i></button>
+          <button class="am-prev"><i class="icon-arrowRightIcon"></i></button>
+        </div>
+        <div class="owl-carousel owl-theme slider-carousel">
+          <div class="card">
+            <img src="./images//blogs1.png" alt="" />
+            <h4>Салом, Сосед!</h4>
+            <p>Компенсация затрат на ремонт квартиры при заливе или пожаре</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="card">
+            <img src="./images//blogs2.png" alt="" />
+            <h4>Опция COVID-19</h4>
+            <p>Медицинский полис путешественника с опцией COVID</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="card">
+            <img src="./images//blogs3.png" alt="" />
+            <h4>Телохранитель +</h4>
+            <p>Уникальный выгодный вариант в непредвиденных ситуациях</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="card">
+            <img src="./images//blogs4.png" alt="" />
+            <h4>Спокойствие за рулем</h4>
+            <p>Экономия на ремонте автомобиля, поврежденного при ДТП</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+          <div class="card">
+            <img src="./images//blogs4.png" alt="" />
+            <h4>Спокойствие за рулем</h4>
+            <p>Экономия на ремонте автомобиля, поврежденного при ДТП</p>
+            <button class="btn btn-primary">Подробнее</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="news">
+        <h2>
+          <p>Новости</p>
+          <span>Все новости</span>
+        </h2>
+        <div class="news-blog">
+          <div class="news-blog-img-content">
+            <img src="./images/news.png" alt="news" />
+            <div class="time-management" style="margin-top: 20px">
+              <div class="time-line">
+                <span>17.05.2021</span>
+                <i class="icon-line"></i>
+              </div>
+              <h4 class="title">
+                Страховая организация «BIMA» отметила заслуги сотрудников банка
+                «Арванд»
+              </h4>
+              <p>
+                По завершении церемонии руководство Страховой организации «BIMA»
+                выразила искреннюю благодарность всему коллективу Банка «Арванд»
+                за плодотворную работу и высокий профессионализм
+              </p>
+            </div>
+          </div>
+
+          <div class="news-blog-item">
+            <div class="time-management bottom-line">
+              <div class="time-line">
+                <span>02.05 2021</span>
+                <i class="icon-line"></i>
+              </div>
+              <h4>
+                Первая международная олимпиада по ментальной арифметике
+                «ШОСkids»
+              </h4>
+              <p>
+                В Душанбе в Президентском лицее для одаренных детей состоялась
+                Первая Международная Олимпиада по ментальной арифметике «ШОСkids
+                21»
+              </p>
+            </div>
+            <div class="time-management">
+              <div class="time-line">
+                <span>30.01.2021</span>
+                <i class="icon-line"></i>
+              </div>
+              <h4>
+                Презентация новых страховых опций «Мобихранитель» и
+                «Мобихранитель + »
+              </h4>
+              <p>
+                По завершении церемонии руководство Страховой организации «BIMA»
+                выразила искреннюю благодарность всему коллективу Банка «Арванд»
+                за плодотворную работу и высокий профессионализм
+              </p>
+            </div>
+          </div>
+
+          <div class="news-blog-item">
+            <div class="time-management bottom-line left">
+              <div class="time-line">
+                <span>14.04.2021</span>
+                <i class="icon-line"></i>
+              </div>
+              <h4>
+                Самые яркие моменты к 7-летию страховой организации «BIMA»
+              </h4>
+              <p>
+                Свой день рождения «BIMA» традиционно отмечает 14 апреля – дня
+                получения первой лицензии на право ведения страховой
+                деятельности Министерством...
+              </p>
+            </div>
+            <div class="time-management left">
+              <div class="time-line">
+                <span>09.01.2021</span>
+                <i class="icon-line"></i>
+              </div>
+              <h4>
+                Tcell и «BIMA» представляют опции для страхования мобильной
+                техники
+              </h4>
+              <p>
+                Ведущий инновационный оператор страны – компания Tcell и
+                страховая компания BIMA Insurance представляют страховые опции
+                «МобиХранитель» и...
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <h2>Отзывы</h2>
+
+        <div class="owl-carousel owl-theme owl-carousel-reviews">
+          <div class="reviews-card">
+            <div class="reviews-card-item">
+              <img src="./images/rvs1.png" alt="" />
+              <div class="user">
+                <h5>Дилшод Назаров</h5>
+                <p>Олимпийский чемпион</p>
+              </div>
+              <div class="stars">
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+              </div>
+            </div>
+            <p>
+              Чтобы избежать лишних финансовых затрат, я застраховал квартиру
+              полисом “Салом, Сосед!” где сумма выплаты в случае затопа, пожара
+              или кражи может гарантировано достигать до 40 000 сомони. Уверен,
+              что взглянув на выгоду полиса и вы сделаете правильный выбор. Я
+              доверяю полису “Салом, Сосед!” и вам советую!
+            </p>
+          </div>
+          <div class="reviews-card">
+            <div class="reviews-card-item">
+              <img src="./images/rvs2.png" alt="" />
+              <div class="user">
+                <h5>Дилшод Назаров</h5>
+                <p>Олимпийский чемпион</p>
+              </div>
+              <div class="stars">
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+                <i class="icon-star"></i>
+              </div>
+            </div>
+            <p>
+              Чтобы избежать лишних финансовых затрат, я застраховал квартиру
+              полисом “Салом, Сосед!” где сумма выплаты в случае затопа, пожара
+              или кражи может гарантировано достигать до 40 000 сомони. Уверен,
+              что взглянув на выгоду полиса и вы сделаете правильный выбор. Я
+              доверяю полису “Салом, Сосед!” и вам советую!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="company">
+        <div class="container">
+          <div class="company-statistics">
+            <h2>О компании в цифрах</h2>
+            <div class="statistics-blog">
+              <i class="icon-person"></i>
+              <div>
+                <h5>32 619</h5>
+                <p>человек застраховано</p>
+              </div>
+            </div>
+            <div class="statistics-blog">
+              <i class="icon-card"></i>
+              <div>
+                <h5>7 462 500 сомони</h5>
+                <p>выплачено по страховым случаям</p>
+              </div>
+            </div>
+            <div class="statistics-blog">
+              <i class="icon-bag"></i>
+              <div>
+                <h5>11 392</h5>
+                <p>выезжающих за рубеж застраховано</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="company-statistics">
+            <div class="company-logo">
+              <img src="./icons/dark-logo.svg" alt="" />
+              <p>Год основания: <span>2014</span></p>
+            </div>
+
+            <div class="statistics-blog">
+              <i class="icon-car"></i>
+              <div>
+                <h5>743</h5>
+                <p>машин застраховано</p>
+              </div>
+            </div>
+            <div class="statistics-blog">
+              <i class="icon-radio"></i>
+              <div>
+                <h5>51 250 597 сомони</h5>
+                <p>страховой премии получено</p>
+              </div>
+            </div>
+            <div class="statistics-blog">
+              <i class="icon-list"></i>
+              <div>
+                <h5>50 000</h5>
+                <p>полисов выпущено</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="company-map">
+            <div>
+              <select name="" id="">
+                <option value="">2019 год</option>
+                <option value="">2020 год</option>
+                <option value="">2021 год</option>
+              </select>
+            </div>
+            <img src="./icons/map.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="partner">
+        <h2>Наши партнеры</h2>
+        <div class="owl-carousel owl-theme partner-carousel">
+          <div class="partner-item">
+            <img src="./icons/partner1.svg" alt="" />
+          </div>
+          <div class="partner-item">
+            <img src="./icons/partner2.svg" alt="" />
+          </div>
+          <div class="partner-item">
+            <img src="./icons/partner3.svg" alt="" />
+          </div>
+          <div class="partner-item">
+            <img src="./icons/partner4.svg" alt="" />
+          </div>
+          <div class="partner-item">
+            <img src="./icons/partner5.svg" alt="" />
+          </div>
+          <div class="partner-item">
+            <img src="./icons/partner6.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="./icons/logo.svg" alt="logo" />
+            <p>
+              Наша миссия — создание ведущего страховщика на основе инноваций и
+              мирового опыта
+            </p>
+            <div class="icons">
+              <i class="icon-facebook"></i>
+              <i class="icon-instagram"></i>
+            </div>
+          </div>
+          <div>
+            <h3>Контакты</h3>
+            <ul>
+              <li>
+                <i class="icon-location"></i>
+                <span> г. Душанбе, ул. Нусратулло Махсум 74/3</span>
+              </li>
+              <li>
+                <i class="icon-call"></i>
+                <span> (44) 601 55 11 / 5511</span>
+              </li>
+              <li>
+                <i class="icon-smg"></i>
+                <span> mail@bima.tj</span>
+              </li>
+              <li>
+                <i class="icon-time"></i>
+                <span>
+                  Понедельник - Пятница: 9:00 - 18:00. Суббота: 10:00 -
+                  12:00</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Полезные ссылки</h3>
+            <ul>
+              <li>
+                <i class="icon-arrowRight"></i>
+                Вакансии
+              </li>
+              <li>
+                <i class="icon-arrowRight"></i>
+                Раскрытие Информации
+              </li>
+              <li>
+                <i class="icon-arrowRight"></i>
+                Приглашения Тендер
+              </li>
+              <p>При наступлении страхового случая:</p>
+              <li>
+                <i class="icon-call"></i>
+                (+992) 880 00 03 31
+              </li>
+              <li>
+                <i class="icon-smg"></i>
+                claims@bima.tj
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-created">
+          <p>© 2021. Все права защищены</p>
+          <p>Разработка сайта: <span>Online Service Group</span></p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4//dist/owl.carousel.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
